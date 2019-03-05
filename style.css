@@ -1,0 +1,93 @@
+/* About us */
+
+.media-body p{
+	max-height: 140px;
+	overflow-y: scroll;
+}
+
+.media img{
+	width: 140px;
+	height: auto;
+    border: 6px solid #FF8C00;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+
+#aboutUs{
+	background-color: #494B4B;
+}
+
+.dream{
+	font-weight: bold;
+}
+
+.dream:hover {
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+/* CATEGORIES */
+
+.container-fluid
+{
+    background-color: #494B4B;
+    border: none;
+}
+
+.categories
+{
+    margin: 2rem;
+}
+
+.card
+{
+    bottom: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn
+{
+    width: 12rem;
+    margin:0 auto;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+    float:left;
+    background-color: #FF8C00;
+}
+
+.card img
+{
+    height: 13rem; 
+    width: 18rem; 
+    border-radius: 20px;
+}
+
+.card
+{
+    height: 25rem;
+    margin-bottom: 1rem;
+}
+
+.card-title
+{
+    text-align: center;
+}
+
+#footer{
+    background-color: #494B4B;
+}
+.footernote{
+    text-decoration: none;
+    color: #B9BDBC;
+}
