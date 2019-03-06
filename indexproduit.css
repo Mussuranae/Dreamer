@@ -7,8 +7,11 @@
     position: absolute;
 }
 
-
-
+.card-title1 {
+    font-size: 80px;
+    margin-top: 143px;
+    color: navajowhite;
+}
 
 /* Gril Card*/
 .view-group {
