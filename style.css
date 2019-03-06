@@ -2,9 +2,9 @@
 
 /* CATEGORIES */
 
-.container-fluid
+.grey
 {
-	background-color: #494B4B;
+	background-color: #6DA0B5;
 	border: none;
 }
 
@@ -58,12 +58,24 @@
 
 /*Footer */
 
-#footer{
-	background-color: #494B4B;
+
+
+
+.links{
+     text-decoration: none;
+     font-size: 1.2em;
+    color: #fff;
 }
+
 .footernote{
-	text-decoration: none;
-	color: #B9BDBC;
+   
+    font-size: 1.2em;
+    color: #fff;
+}
+
+#footer{
+	background-color: #6DA0B5;
+
 }
 
 
@@ -83,9 +95,6 @@
 
 }
 
-#aboutUs{
-    background-color: #494B4B;
-}
 
 .dream{
     font-weight: bold;
@@ -101,6 +110,9 @@
     -webkit-text-fill-color: transparent;
     
 }
+
+
+
 
 .btn1 {
     width: 12rem;
@@ -126,14 +138,22 @@
     margin-right: auto;
 }
 
-.ContactUs
-{
-    font-weight:bold;
-    font-size: 25px;
-    
-}
+
 #Home{
     background-image:url(https://img.icons8.com/color/48/000000/palace.png); 
     background-repeat: no-repeat; 
     background-position: 3px;
+}
+
+
+#categories h2, #topselling h2, #aboutus h2, #contactus h2{
+    text-align: center;
+    color:#FF8C00;
+}
+
+.container-fluid{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
 }
