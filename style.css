@@ -258,3 +258,10 @@ font-size: 1em;
     text-shadow: 2px 2px 2px #000, 2px 2px 2px #000, 2px 2px 2px #000, 2px 2px 2px #000;
 
 }
+
+
+.imgcontactus {
+background-size: cover;
+width: 450px;
+height: auto;
+}
