@@ -69,7 +69,7 @@
 
 /* About us */
 
-.media-body p{
+.scrollin{
     max-height: 140px;
     overflow-y: scroll;
 }
