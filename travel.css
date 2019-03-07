@@ -40,9 +40,10 @@ width: 4vw;
 }
 
 .card-title1 {
-    margin-top: 180px;
+    padding-top: 8vw;
     color: navajowhite;
     font-size: 10vw;
+    float: left;
 }
 
 /* Gril Card*/
