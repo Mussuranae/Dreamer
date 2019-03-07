@@ -10,6 +10,58 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="indexproduit.css">
 </head>
+<header>
+    <!-- NAVBAR -->
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light">
+<a class="navbar-brand" href="#"><img src="images/logo.png" class="logoFree"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item active">
+<a class="nav-link" href="#">Top Selling<span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+</li>
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Categories
+</a>
+<!-- IL FAUT AJOUTER DANS LE DROPDOWN LES CHEMINS VERS LES AUTRES PAGES 'travels', 'dream addict', 'bedding',... -->
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="#">Travels</a>
+<a class="dropdown-item" href="#">Dream Addict</a>
+<a class="dropdown-item" href="#">Virtual Reality</a>
+<a class="dropdown-item" href="#">Bedding</a>
+<a class="dropdown-item" href="#">X-Trem</a>
+<a class="dropdown-item" href="#">Shows</a>
+</div>
+</li>
+</ul>
+<form class="form-inline my-2 my-lg-0">
+<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+<button class="btn btn-outline my-2 my-sm-0 searchButton" type="submit">Search</button>
+</form>
+<!-- IL FAUT AJOUTER ICI LES CHEMINS VERS LES PAGES 'cart' ET 'account' -->
+<a class="navbar-brand" href="#">
+<img src="images/cart_logo_navbar.png" alt="Cart" class="logonav">
+</a>
+<a class="navbar-brand" href="#">
+<img src="images/login_logo_navbar.png" alt="Cart" class="logonav">
+</a>
+</div>
+</div>
+</nav>
+</div>
+</header>
+
 
 <body>
     <!-- Présentation catégorie-->
@@ -1017,29 +1069,42 @@
     <!-- Meilleurs ventes toutes catégories confondues-->
 
     <!--ContactUs-->
-    <section id="ContactUs">
-        <div class="container">
-            <div class="row no-gutters">
-                <div class="col-12">
-                    <a class="ContactUs"> Contact Us</a>
-                    <form>
-                        <div class="form-group">
-                            <!--<label for="exampleFormControlInput1">Email address</label>-->
-                            <input type="email" class="form-control" placeholder="@">
-                        </div>
-                        <div class="form-group">
-                            <!--<label for="exampleFormControlInput1">Email address</label>-->
-                            <input type="email" class="form-control" id="Home" placeholder="">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" id="message" placeholder="(Your Message here)"
-                                rows="5"></textarea>
-                        </div>
-                    </form>
-                </div>
+   <Section id="contactus">
+      <div class="container">
+          <h2 class="ContactUs"> Contact Us</h2>
+          
+          <br />
+          <div class="row">
+              <div class="col-lg-6">
+                  <form>
+                      <div class="form-group">
+                          <!--<label for="exampleFormControlInput1">Email address</label>-->
+                          <input type="email" class="form-control"  placeholder="@">
+                      </div>
+                      <div class="form-group">
+                          <!--<label for="exampleFormControlInput1">Email address</label>-->
+                          
+                          <input type="email" class="form-control"  id="Home" placeholder="">
+                      </div>
+                      
+                      <div class="form-group">
+                          
+                          <textarea class="form-control" id="message" placeholder="(Your Message here)" rows="10"></textarea>
+                      </div>
+                  </form>
+                  <div class="row">
+                      <div class="col-lg-6">
+                          <button type="submit" class="btn btn-outline-dark boutonsubmit">submit</button>
+                      </div>
+                  </div>
+                  <br />
+              </div>
+              <div class="col-lg-6">
+                  <img class="imgcontactus" src="https://i.etsystatic.com/5284843/r/il/2fe330/1166918536/il_570xN.1166918536_ek1q.jpg">
+              </div>
             </div>
-        </div>
-    </section>
+      </div>      
+  </Section>
     <!-- Contact us-->
 
     <!-- Footer-->
