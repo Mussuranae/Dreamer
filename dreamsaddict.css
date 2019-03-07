@@ -186,11 +186,11 @@ input:focus::-moz-placeholder { color:transparent; }
 
 /*Barre de séparation*/
 
-hr{
-	margin-left: 20vw;
-	margin-right: 20vw;
-	margin-top: 5vw;
-	margin-bottom: 5vw;
-	height: 0.1vw;
-	background-color: #26D637;
+hr
+{
+width: 50%;
+height: 0.2rem;
+background-color: #26D637;
+margin-top: 5vw;
+margin-bottom: 5vw;
 }
