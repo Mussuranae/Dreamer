@@ -11,7 +11,7 @@
     pointer-events: none;
 }
 .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
-    background-color: #6DA0B5;
+    background-color: #13911F;
 }
 .btn, .btn-outline, .my-2, .my-sm-0 {
     color: black;
@@ -35,7 +35,7 @@
     height: 350px;
 }
 
-/* Card présentation*/
+/* Card Présentation*/
 .presentationcat {
     position: absolute;
 }
@@ -116,30 +116,6 @@
 }
 
 
-
-/*Contact us */
-.ContactUs {
-    font-weight:bold;
-    font-size: 25px;
-    
-}
-
-#Home {
-    background-repeat: no-repeat; 
-    background-position: 3px;
-}
-input:focus::-moz-placeholder { color:transparent; }
-
-/*Footer*/
-#footer {
-    background-color: #494B4B;
-}
-
-.footernote {
-    text-decoration: none;
-    color: #B9BDBC;
-}
-
 /*Cards*/
 .btn1 {
     margin-bottom: 1rem;
@@ -168,8 +144,42 @@ input:focus::-moz-placeholder { color:transparent; }
     margin-right: auto;
 }
 
-/*Contac us*/
+/*Contact us */
+.ContactUs {
+    font-weight:bold;
+    font-size: 25px;
+    
+}
+
+#Home {
+    background-repeat: no-repeat; 
+    background-position: 3px;
+}
+
+input:focus::-moz-placeholder { color:transparent; }
+
 .boutonsubmit {
     margin-bottom: 1rem;
     background-color: rgb(129, 204, 59);
+}
+
+/*Footer*/
+#footer {
+    background-color: #13911F;
+}
+
+.footernote {
+    text-decoration: none;
+    color: #B9BDBC;
+}
+
+/*Barre de séparation*/
+
+hr{
+	margin-left: 20vw;
+	margin-right: 20vw;
+	margin-top: 5vw;
+	margin-bottom: 5vw;
+	height: 0.1vw;
+	background-color: #26D637;
 }
