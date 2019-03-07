@@ -3,6 +3,9 @@
 .logonav {
     width: 2vw;
 }
+.nav-link{
+    color: white;
+}
 .dropdown:hover > .dropdown-menu {
     display: block;
 }
@@ -23,6 +26,8 @@
 .logoFree {
     width: 4vw;
 }
+
+
 
 /* Photo description catégorie*/
 #presentationcat h2{
@@ -45,6 +50,10 @@
 
 .titlepresentation{
     margin-top: 8vw;
+}
+
+.descategorie{
+    text-align: center;
 }
 
 
@@ -165,13 +174,14 @@ input:focus::-moz-placeholder { color:transparent; }
 }
 
 /*Footer*/
-#footer {
+#footer .container{
     background-color: #13911F;
 }
 
 .footernote {
     text-decoration: none;
-    color: #B9BDBC;
+    color: white;
+    text-align: center;
 }
 
 /*Barre de séparation*/
