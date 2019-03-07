@@ -1,0 +1,234 @@
+/* Card présentation*/
+.presentationcat {
+    position: absolute;
+}
+
+.card-img-overlay {
+    position: absolute;
+}
+
+.card-title1 {
+    font-size: 80px;
+    margin-top: 143px;
+    color: navajowhite;
+}
+
+/* Gril Card*/
+.view-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.thumbnail {
+    margin-bottom: 30px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.item.list-group-item {
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 30px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+    border: 0;
+}
+
+.item.list-group-item .img-event {
+    float: left;
+    width: 30%;
+}
+
+.item.list-group-item .list-group-image {
+    margin-right: 10px;
+}
+
+.item.list-group-item .thumbnail {
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.item.list-group-item .caption {
+    float: left;
+    width: 70%;
+    margin: 0;
+}
+
+.item.list-group-item:before, .item.list-group-item:after {
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item:after {
+    clear: both;
+}
+
+/*Contact us */
+.ContactUs {
+    font-weight:bold;
+    font-size: 25px;
+    
+}
+
+#Home {
+    background-image:url(https://img.icons8.com/color/48/000000/palace.png); 
+    background-repeat: no-repeat; 
+    background-position: 3px;
+}
+input:focus::-moz-placeholder { color:transparent; }
+
+/*Footer*/
+#footer {
+    background-color: #494B4B;
+}
+
+.footernote {
+    text-decoration: none;
+    color: #B9BDBC;
+}
+
+/*Cards*/
+.btn1 {
+    margin-bottom: 1rem;
+    background-color: rgb(129, 204, 59);
+}
+
+.btn2 {
+    float: right;
+}
+
+.drugs1 {
+    font-size: 15px;
+    color: red;
+}
+
+
+.card2 img {
+    border-radius: 20px;
+}
+
+.card2 {
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.logonav {
+width: 2vw;
+}
+.dropdown:hover > .dropdown-menu {
+display: block;
+}
+.dropdown > .dropdown-toggle:active {
+/*Without this, clicking will make it sticky*/
+pointer-events: none;
+}
+.navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+background-color: #6DA0B5;
+}
+.btn, .btn-outline, .my-2, .my-sm-0 {
+color: black;
+border-color: black;
+}
+.searchButton {
+margin-right: 1vw;
+}
+.logoFree {
+width: 4vw;
+}
+
+/* Conteneur principal */
+.overlay-image {
+position: relative;
+width: 100%;
+}
+/* Image originale */
+.overlay-image .image {
+display: block;
+margin: auto;
+width: 80%;
+height: auto;
+}
+
+
+/* Texte original */
+.overlay-image .headerTitle {
+color: #FFF;
+line-height: 1.5em;
+text-shadow: 2px 2px 2px #000, 2px 2px 2px #000, 2px 2px 2px #000, 2px 2px 2px #000;
+text-align: left;
+position: relative;
+top: 50%;
+left: 35%;
+transform: translate(-50%, -50%);
+}
+
+h1 {
+font-size: 4em;
+justify-content: flex-start ;
+}
+
+@media all and (max-width: 992px)
+{
+h1 {
+width: auto;
+font-size: 2em;
+
+}
+}
+@media all and (max-width: 500px)
+{
+h1 {
+width: auto;
+font-size: 1em;
+
+}
+}
+
+.bandeau {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    font-family : Arial, sans-serif;
+    position: relative;
+    
+}
+
+
+
+
+.title {
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    margin: auto;
+    width:90%;
+    text-align: left;
+    font-size: 1.5em;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000, 2px 2px 2px #000, 2px 2px 2px #000, 2px 2px 2px #000;
+
+}
+
+
+.imgcontactus {
+background-size: cover;
+width: 450px;
+height: auto;
+}
