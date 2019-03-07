@@ -7,11 +7,6 @@
     position: absolute;
 }
 
-.card-img {
-    width: auto;
-    height: 150px;
-}
-
 
 /* Gril Card*/
 
@@ -82,11 +77,6 @@
     height: 250px;
 }
 /*Contact us */
-.ContactUs {
-    font-weight:bold;
-    font-size: 25px;
-    
-}
 
 .boutonsubmit {
 
@@ -248,8 +238,36 @@ height: auto;
 
 .trait_dessus
 {
-    margin-inline-start: 20px;
-    margin-inline-end: 20px;
-    border-top: 2px solid #000;
+    text-align: center;
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
+    border-top: 2px solid #E36ACC;
     width : auto;
+}
+
+.card-img {
+    width: auto;
+    height: 300px;
+}
+
+#presentationcat .card-title {
+        margin-top: 0px;
+        font-size : 90px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+}
+.card-text {
+    font-size : 25px;
+    text-align : right;
+
+}
+
+.card2 {
+    box-shadow: 5px 5px 5px 5px rgb(189, 86, 184);
+}
+
+
+
+h3 {
+    font-weight: bold;
 }
