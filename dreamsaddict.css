@@ -112,7 +112,7 @@
 }
 
 .card2{
-    box-shadow: 5px 5px 5px black, -3px -3px grey;
+    box-shadow: 4px 4px 3px black, -3px -3px 5px black, 1px -1px 5px black, -1px 1px 5px black;
 }
 
 #products :hover{
