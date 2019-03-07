@@ -188,3 +188,12 @@ opacity: 1;
     font-weight: bold;
     
 }
+
+hr
+{
+width: 50%;
+height: 0.2rem;
+background-color: #000066;
+margin-top: 10px;
+margin-bottom: 20px;
+}
