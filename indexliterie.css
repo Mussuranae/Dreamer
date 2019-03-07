@@ -80,7 +80,7 @@
 
 .boutonsubmit {
 
-    background-color: #E36ACC;
+    background-color:  rgb(212, 129, 208);
 }
 #Home {
     background-image:url(https://img.icons8.com/color/48/000000/palace.png); 
@@ -90,19 +90,21 @@
 input:focus::-moz-placeholder { color:transparent; }
 
 /*Footer*/
-#footer {
-    background-color: #494B4B;
+#footer .container {
+    background-color: #6DA0B5;
+
 }
 
 .footernote {
     text-decoration: none;
-    color: #B9BDBC;
+    color: black;
+    text-align: center;
 }
 
 /*Cards*/
 .btn1 {
-    margin-bottom: 1rem;
-    background-color: rgb(129, 204, 59);
+    margin-bottom: 1rem;    
+    background-color:  rgb(212, 129, 208);
 }
 
 .btn2 {
@@ -231,17 +233,20 @@ font-size: 1em;
 
 
 .imgcontactus {
-background-size: cover;
-width: 450px;
-height: auto;
-}
+    background-size: cover;
+    width: 100%;
+    height: 83%;
+    border: none;
+    opacity: 0.8;
+    border-radius: 20px;
+    }
 
 .trait_dessus
 {
     text-align: center;
     margin-inline-start: 200px;
     margin-inline-end: 200px;
-    border-top: 2px solid #E36ACC;
+    border-top: 2px solid rgb(212, 129, 208);
     width : auto;
 }
 
@@ -264,11 +269,11 @@ height: auto;
 }
 
 .card2 {
-    box-shadow: 5px 5px 5px 5px rgb(189, 86, 184);
+    box-shadow: 5px 5px 5px 5px rgb(212, 129, 208);
 }
 
 
-
 h3 {
-    font-weight: bold;
+    font-weight: bold  ;
+    color :  rgb(207, 85, 201);
 }
