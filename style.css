@@ -87,10 +87,10 @@
 }
 
 .media img{
-    width: 140px;
-    height: auto;
+    width: auto;
+    height: 140px;
     border: 6px solid #FF8C00;
-    border-radius: 4px;
+    border-radius: 20px;
     padding: 5px;
 
 }
