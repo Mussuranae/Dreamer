@@ -137,19 +137,19 @@ opacity: 1;
 input:focus::-moz-placeholder { color:transparent; }
 
 /*Footer*/
-#footer {
-    background-color: #494B4B;
+#footer .container {
+    background-color: #6DA0B5;
 }
 
 .footernote {
     text-decoration: none;
-    color: #B9BDBC;
+    color: white;
 }
 
 /*Cards*/
 .btn1 {
     margin-bottom: 1rem;
-    background-color: rgb(129, 204, 59);
+    background-color: #E0900C;
 }
 
 .btn2 {
