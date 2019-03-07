@@ -1,99 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>F*** me, I'm a dreamer - Virtual Reality</title>
+    <title>F*** me, I'm a dreamer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="//netdna.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="virtual.css">
+    <link rel="stylesheet" href="travel.css">
 </head>
+<header>
+    <!-- NAVBAR -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" class="logoFree"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Top Selling<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Categories
+                        </a>
+                        <!-- IL FAUT AJOUTER DANS LE DROPDOWN LES CHEMINS VERS LES AUTRES PAGES 'travels', 'dream addict', 'bedding',... -->
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Travels</a>
+                            <a class="dropdown-item" href="#">Dream Addict</a>
+                            <a class="dropdown-item" href="#">Virtual Reality</a>
+                            <a class="dropdown-item" href="#">Bedding</a>
+                            <a class="dropdown-item" href="xtrem.html">X-Trem</a>
+                            <a class="dropdown-item" href="#">Shows</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline my-2 my-sm-0 searchButton" type="submit">Search</button>
+                </form>
+                <!-- IL FAUT AJOUTER ICI LES CHEMINS VERS LES PAGES 'cart' ET 'account' -->
+                <a class="navbar-brand" href="#">
+                    <img src="images/cart_logo_navbar.png" alt="Cart" class="logonav">
+                </a>
+                <a class="navbar-brand" href="#">
+                    <img src="images/login_logo_navbar.png" alt="Cart" class="logonav">
+                </a>
+            </div>
+    </div>
+    </nav>
+    </div>
+</header>
+
 
 <body>
-    <header>
-        
-    </header>
-
-    <!-- Navbar -->
-<section id="navbar">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logoFree" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#topselling">Top Selling<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html#aboutus">About<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#contactus">Contact<span class="sr-only">(current)</span></a>
-            </li>
-            
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categories
-              </a>
-              <!-- IL FAUT AJOUTER DANS LE DROPDOWN LES CHEMINS VERS LES AUTRES PAGES 'travels', 'dream addict', 'bedding',... -->
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="travel.html">Travels</a>
-                <a class="dropdown-item" href="dreamsaddict.html">Dream Addict</a>
-                <a class="dropdown-item" href="virtual.html">Virtual Reality</a>
-                <a class="dropdown-item" href="indexliterie.html">Bedding</a>
-                <a class="dropdown-item" href="xtrem.html">X-Trem</a>
-                <a class="dropdown-item" href="shows.html">Shows</a>
-              </div>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline my-2 my-sm-0 searchButton" type="submit">Search</button>
-          </form>
-          <!-- IL FAUT AJOUTER ICI LES CHEMINS VERS LES PAGES 'cart' ET 'account' -->
-          <a class="navbar-brand" href="#">
-            <img src="images/cart_logo_navbar.png" alt="Cart" class="logonav">
-          </a>
-          <a class="navbar-brand" href="#">
-            <img src="images/login_logo_navbar.png" alt="Cart" class="logonav">
-          </a>
-          </div>
-        
-      </nav>
-    </div>
-</section>
-
-
     <!-- Présentation catégorie-->
     <section id="presentationcat">
         <div class="container">
-            <div class="card mb-3">
-                <img src="img_virtual/VR1.jpg" class="card-img" alt="...">
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2015/03/22/23/07/bora-bora-685303_960_720.jpg" class="card-img"
+                    alt="...">
                 <div class="card-img-overlay">
                     <div class="row no-gutters">
                         <div class="col-12">
-<h3 class="card-title title1">Virtual</h3> <!-- titre responsive -->
-
-
-    <h3 class="card-title title2">Reality</h3> <!-- titre responsive -->
-</div>
+                            <h3 class="card-title1">Voyage</h3>
+                        </div>
                     </div>
-                </div></div>
+                </div>
                 <div class="card-body">
-                    <p class="card-text">Escape a reality that can be hard through Virtual Reality. Whatever the time you have ahead, with us, you'll be able to evade. Once you're in, you're in for life.
-                    </p>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- Présentation catégorie-->
 
-    <hr>
+
 
     <!-- présentation produit - card -->
     <section>
@@ -113,23 +108,26 @@
                 </div>
             </div>
             <!--Cards 1-->
-            <div  class="row view-group">
+            <div id="products" class="row view-group">
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="img_virtual/matrix1.jpg"
+                            <img class="group list-group-image img-fluid"
+                                src="https://viaimage3.viafrance.com//img/img-1000x500/2/9/5/295663_1000x500.jpg?width=400&height=250&mode=crop"
                                 alt="" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                NEBUCHADNEZZAR SEAT</h4>
+                                Trip to Florence</h4>
                             <p class="group inner list-group-item-text">
-                                Escape the hard reality of a world led by robots. With it, you'll have superpowers that allow you to jump from a building to another, to fight like a pro and maybe, maybe save the world.
+                                Cradle of the Renaissance, romantic, enchanting and utterly irresistible, Florence
+                                (Firenze) is a place to feast on world-class art and gourmet Tuscan cuisine.Few cities
+                                are so compact size or so packed with extraordinary art.
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        $14999.00</p>
+                                        $895.90</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
@@ -147,26 +145,31 @@
                                                 </button>
                                                 <div class="row">
                                                     <div class="col">
-                                                        <div class="product_img"><img src="img_virtual/matrix2.jpg" width="400" alt="matrix"></div>
+                                                        <div class="product_img"><img
+                                                                src="https://besthqwallpapers.com/Uploads/18-4-2018/48880/thumb-santo-spirito-florence-evening-sunset-italy.jpg"
+                                                                alt="rbm_single_commerce_01" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>NEBUCHADNEZZAR SEAT</h1>
+                                                            <h1>Trip to <br>Florence</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>$14999.00</h2>
+                                                            <h2>$895.90</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">Quantity</option>
-                                                                    <option value="">1</option>
-                                                                    <option value="">2</option>
-                                                                    <option value="">3</option>
-                                                                    <option value="">4</option>
+                                                                    <option value="">number of people</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 people</option>
+                                                                    <option value="">3 people</option>
+                                                                    <option value="">4 people</option>
                                                                 </select>
                                                             </div>
-                                                            <p>
-                                                                If you do not fear to be killed, jump in one of our seats and make your mind able to live another life. <br><small>Beware: Some people may try to kill you. You need to have a plug in your neck.<br> Plugs sold separately.</small>
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                                Nam
+                                                                nibh. Nunc varius facilisis eros. Sed erat. In in velit
+                                                                quis
+                                                                arcu ornare laoreet. Curabitur adipiscing luctus massa.
                                                             </p>
-                                                            
+                                                            <div id="share"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -177,7 +180,6 @@
                                                     Cart</button>
                                                 <button type="button" class="btn btn-secondary"
                                                     data-dismiss="modal">Close</button>
-
                                             </div>
                                         </div>
                                     </div>
@@ -190,19 +192,22 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="img_virtual/inception1.jpg"
+                            <img class="group list-group-image img-fluid"
+                                src="https://onpartquand.fr/wp-content/uploads/2017/10/budget-indon%C3%A9sie-couv-400x250.jpg"
                                 alt="" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                DREAM SUITCASE</h4>
+                                Trip to Indonesia</h4>
                             <p class="group inner list-group-item-text">
-                                Share the dreams you have built with anyone who's asleep near you. You'll be able to create a new world where the reality is the one you have created and not the one you see everyday. 
+                                This beguiling nation of over 17,000 islands has massive potential for adventures. It's
+                                hard to beat Indonesia for the sheer range of experiences on offer. Sitting in the open
+                                door of a train whizzing across Java.
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        $999.00</p>
+                                        $1159.90</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
@@ -221,35 +226,40 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img
-                                                                src="img_virtual/inception2.jpg" width="400" alt ="..."></div>
+                                                                src="https://subocea.com/uploads/media/default/0001/03/1189b1e0ea94033de1f683ba6dc2b52a7fb121ed.jpeg"
+                                                                alt="rbm_single_commerce_01" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>DREAM SUITCASE</h1>
+                                                            <h1>Trip to Indonesia</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>$999.00</h2>
+                                                            <h2>$1159.90</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">Quantity</option>
-                                                                    <option value="">1</option>
-                                                                    <option value="">2</option>
-                                                                    <option value="">3</option>
-                                                                    <option value="">4</option>
+                                                                    <option value="">number of people</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 people</option>
+                                                                    <option value="">3 people</option>
+                                                                    <option value="">4 people</option>
                                                                 </select>
                                                             </div>
-                                                            <p>Sedate yourself and your friends and enter shared dreams. You'll even be able to share dreams within your dreams! <br><small>Beware: do not enter too many dreams within your dreams, as your mind can stay stuck and you'll never wake up. <br>Sedatives sold separately.</small>
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                                Nam
+                                                                nibh. Nunc varius facilisis eros. Sed erat. In in velit
+                                                                quis
+                                                                arcu ornare laoreet. Curabitur adipiscing luctus massa.
                                                             </p>
-                                                            
+                                                            <div id="share"></div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add To
+                                                <button type="button" class="btn btn-primary"><i
+                                                        class="fa fa-shopping-cart"></i> Add To
                                                     Cart</button>
                                                 <button type="button" class="btn btn-secondary"
                                                     data-dismiss="modal">Close</button>
-
                                             </div>
                                         </div>
                                     </div>
@@ -262,20 +272,22 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="img_virtual/rp11.jpg"
+                            <img class="group wcs list-group-image img-fluid"
+                                src="https://3.bp.blogspot.com/-fBg6APej8Fc/V82oMXn20CI/AAAAAAAAUlg/XIPx0M3KkWwoDk5eh6ROoezu6CfH4ij4wCLcB/s1600/WildCodeSchool_CampusLyon_Ouest.JPG"
                                 alt="" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                X-1 BOOTSUIT</h4>
+                                Trip to Wild Code School</h4>
                             <p class="group inner list-group-item-text">
-                                Put on the X-1 Haptic Bootsuit by IOI, and experience Virtual Reality in the Oasis like you've never have. The suit gives you comfort in both world. Rule the Oasi and rule the world!
+                                Become a web developer by completing our 5-month training programme in web development.
+                                Before you start at one of our schools, we invite you to learn the basics of coding,
+                                free of charge, on our online platform.
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        $199.00</p>
-
+                                        $6000.00</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
@@ -294,25 +306,30 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img
-                                                                src="img_virtual/rp12.jpg" width="400" alt="..."></div>
+                                                                src="https://wildcodeschool.fr/wp-content/uploads/2017/04/IMG_20170224_144600.jpg"
+                                                                alt="rbm_single_commerce_01" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>X-1 BOOTSUIT</h1>
+                                                            <h1 class="wcs-text">Trip to <br>Wild Code School</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>$199.00</h2>
+                                                            <h2>$6000.00</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">Quantity</option>
-                                                                    <option value="">1</option>
-                                                                    <option value="">2</option>
-                                                                    <option value="">3</option>
-                                                                    <option value="">4</option>
+                                                                    <option value="">number of people</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 people</option>
+                                                                    <option value="">3 people</option>
+                                                                    <option value="">4 people</option>
                                                                 </select>
                                                             </div>
-                                                            <p>Disconnect yourself totally from the reality and jump into the Oasis and live a better experience with our bootsuit by IOI. You can purchase this item directly in the game for 30,000.00 Oasis Credits
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                                Nam
+                                                                nibh. Nunc varius facilisis eros. Sed erat. In in velit
+                                                                quis
+                                                                arcu ornare laoreet. Curabitur adipiscing luctus massa.
                                                             </p>
-                                                           
+                                                            <div id="share"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -323,7 +340,6 @@
                                                     Cart</button>
                                                 <button type="button" class="btn btn-secondary"
                                                     data-dismiss="modal">Close</button>
-
                                             </div>
                                         </div>
                                     </div>
@@ -336,19 +352,20 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="img_virtual/sao1.jpg"
-                                alt="" />
+                            <img class="group list-group-image img-fluid"
+                                src="https://www.climatsdumonde.biz/images/photo/B_660_ScallopBar1_[400].jpg" alt="" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                SAO HELMET</h4>
+                                Trip to Thailand</h4>
                             <p class="group inner list-group-item-text">
-                                Purchase the Sword Art Online Helmet and jump in Aincrad and join other players from all over the world. Once you've put the helmet on, you're in ! Make allies and progress through the dungeon!
+                                Friendly and fun-loving, cultured and historic, Thailand radiates a golden hue, from its
+                                glittering temples and tropical beaches through to the ever-comforting Thai smile.
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        $249.00</p>
+                                        $950.90</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
@@ -367,25 +384,30 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img
-                                                                src="img_virtual/sao2.jpg" width="400" alt="..."></div>
+                                                                src="https://voyage-vietnam.asia/images/tour/items/img1/fascinating-thailand-vietnam-itinerary10d-400.jpg"
+                                                                alt="rbm_single_commerce_01" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>SAO Helmet</h1>
+                                                            <h1>Trip to Thailande</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>$249.0</h2>
+                                                            <h2>$950.90</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">Quantity</option>
-                                                                    <option value="">1</option>
-                                                                    <option value="">2</option>
-                                                                    <option value="">3</option>
-                                                                    <option value="">4</option>
+                                                                    <option value="">number of people</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 people</option>
+                                                                    <option value="">3 people</option>
+                                                                    <option value="">4 people</option>
                                                                 </select>
                                                             </div>
-                                                            <p>Join a medieval RPG, a modern FPS or a fantasy RPG. <br><small>Beware: once you've put the helmet on, you're stuck in the game! </small>
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                                Nam
+                                                                nibh. Nunc varius facilisis eros. Sed erat. In in velit
+                                                                quis
+                                                                arcu ornare laoreet. Curabitur adipiscing luctus massa.
                                                             </p>
-                                                            
+                                                            <div id="share"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -396,7 +418,6 @@
                                                     Cart</button>
                                                 <button type="button" class="btn btn-secondary"
                                                     data-dismiss="modal">Close</button>
-
                                             </div>
                                         </div>
                                     </div>
@@ -409,19 +430,21 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="img_virtual/card1.jpg"
-                                alt="" />
+                            <img class="group list-group-image img-fluid"
+                                src="https://www.animematsuri.com/wp-content/uploads/2016/03/japan-05-1.jpg" alt="" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                CARDBOARD</h4>
+                                Trip to Japan</h4>
                             <p class="group inner list-group-item-text">
-                                Try an affordable Virtual Reality. Just put a smartphone in the cardboard and live simple experiences, like watching 360° photos or movies, play simple "stare and shoot games".
+                                Japan is truly timeless, a place where ancient traditions are fused with modern life as
+                                if it were the most natural thing in the world. Wherever you are in Japan, it seems,
+                                you're never far from a great meal.
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        $6.99</p>
+                                        $1399.90</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
@@ -440,25 +463,30 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img
-                                                                src="img_virtual/card2.jpg" width="400" alt="..."></div>
+                                                                src="http://www.travelpack.com/public/imagedb/sysimgdocs/rszimages/Amazing-Japan_pk26300_1.gif"
+                                                                alt="rbm_single_commerce_01" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>CARDBOARD</h1>
+                                                            <h1>Trip to <br>Japan</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>$6.99</h2>
+                                                            <h2>$1399.90</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">Quantity</option>
-                                                                    <option value="">1</option>
-                                                                    <option value="">2</option>
-                                                                    <option value="">3</option>
-                                                                    <option value="">4</option>
+                                                                    <option value="">number of people</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 people</option>
+                                                                    <option value="">3 people</option>
+                                                                    <option value="">4 people</option>
                                                                 </select>
                                                             </div>
-                                                            <p>Try our cardboard before experiencing other more dangerous virtual realities. <br><small>Beware: a long usage can procduce a little dazzling.</small>
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                                Nam
+                                                                nibh. Nunc varius facilisis eros. Sed erat. In in velit
+                                                                quis
+                                                                arcu ornare laoreet. Curabitur adipiscing luctus massa.
                                                             </p>
-                                                            
+                                                            <div id="share"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -469,7 +497,6 @@
                                                     Cart</button>
                                                 <button type="button" class="btn btn-secondary"
                                                     data-dismiss="modal">Close</button>
-
                                             </div>
                                         </div>
                                     </div>
@@ -478,23 +505,25 @@
                         </div>
                     </div>
                 </div>
-                <!--Cards 6-->
+                <!--Crads 6-->
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="img_virtual/cw.jpg"
-                                alt="" />
+                            <img class="group list-group-image img-fluid"
+                                src="http://sun-surfer.com/photos/2012/02/Aurora-Borealis-400x250.jpg" alt="" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                CODE WARS</h4>
+                                Trip to Norway</h4>
                             <p class="group inner list-group-item-text">
-                                Our best way to escape reality ! Codewars is where developers achieve code mastery through challenge. Train on kata in the dojo and reach your highest potential in many languages.
+                                The essence of Norway's appeal is remarkably simple: this is one of the most beautiful
+                                countries on earth. Glaciers, grand and glorious, snake down from ice fields that rank
+                                among Europe's largest.
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        FREE</p>
+                                        $1500.90</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
@@ -513,19 +542,30 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img
-                                                                src="img_virtual/cw2.png" width="400" alt="..."></div>
+                                                                src="https://www.rivagesdumonde.fr/images/xftrdm/CROFRXDK005208-3012/17608.jpg"
+                                                                alt="rbm_single_commerce_01" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>CODE WARS</h1>
+                                                            <h1>Trip to <br>Norway</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>FREE</h2>
+                                                            <h2>$1500.90</h2>
                                                             <div class="col">
-                                                                
+                                                                <select class="form-control" name="select">
+                                                                    <option value="">number of people</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 people</option>
+                                                                    <option value="">3 people</option>
+                                                                    <option value="">4 people</option>
+                                                                </select>
                                                             </div>
-                                                            <p>Codewars is an educational community for computer programming. On the platform, software developers train on programming challenges known as kata.These discrete programming exercises train a variety of skills in a variety of programming languages, and are completed within an online IDE.
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                                Nam
+                                                                nibh. Nunc varius facilisis eros. Sed erat. In in velit
+                                                                quis
+                                                                arcu ornare laoreet. Curabitur adipiscing luctus massa.
                                                             </p>
-                                                            
+                                                            <div id="share"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -536,7 +576,6 @@
                                                     Cart</button>
                                                 <button type="button" class="btn btn-secondary"
                                                     data-dismiss="modal">Close</button>
-
                                             </div>
                                         </div>
                                     </div>
@@ -549,7 +588,7 @@
         </div>
     </section>
     <!-- présentation produit - card-->
-<hr>
+
     <!-- Objets les plus consultés par les clients-->
     <section>
         <div class="container">
@@ -557,30 +596,32 @@
                 <h3>Most views items</h3>
             </div>
             <!--Cards 1-->
-            <div  class="row view-group">
+            <div id="products" class="row view-group">
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="img_virtual/inception2.jpg"
-                                alt="" />
+                            <img class="group list-group-image img-fluid"
+                                src="https://www.animematsuri.com/wp-content/uploads/2016/03/japan-05-1.jpg" alt="" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                DREAM SUITCASE</h4>
+                                Trip to Japan</h4>
                             <p class="group inner list-group-item-text">
-                                Share the dreams you have built with anyone who's asleep near you. You'll be able to create a new world where the reality is the one you have created and not the one you see everyday.
+                                Japan is truly timeless, a place where ancient traditions are fused with modern life as
+                                if it were the most natural thing in the world. Wherever you are in Japan, it seems,
+                                you're never far from a great meal.
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        $999.00</p>
+                                        $1399.90</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
-                                        data-target="#exampleModal7">More
+                                        data-target="#exampleModal5">More
                                         infos</button>
                                 </div>
-                                <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog"
+                                <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog  modal-lg" role="document">
                                         <div class="modal-content">
@@ -592,26 +633,30 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img
-                                                                src="img_virtual/inception1.jpg"
+                                                                src="http://www.travelpack.com/public/imagedb/sysimgdocs/rszimages/Amazing-Japan_pk26300_1.gif"
                                                                 alt="rbm_single_commerce_01" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>DREAM SUITCASE</h1>
+                                                            <h1>Trip to <br>Japan</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>$999.00</h2>
+                                                            <h2>$1399.90</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">Quantity</option>
-                                                                    <option value="">1</option>
-                                                                    <option value="">2</option>
-                                                                    <option value="">3</option>
-                                                                    <option value="">4</option>
+                                                                    <option value="">number of people</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 people</option>
+                                                                    <option value="">3 people</option>
+                                                                    <option value="">4 people</option>
                                                                 </select>
                                                             </div>
-                                                            <p>Sedate yourself and your friends and enter shared dreams. You'll even be able to share dreams within your dreams! <br><small>Beware: do not enter too many dreams within your dreams, as your mind can stay stuck and you'll never wake up.<br> Sedatives sold separately.</small>
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                                Nam
+                                                                nibh. Nunc varius facilisis eros. Sed erat. In in velit
+                                                                quis
+                                                                arcu ornare laoreet. Curabitur adipiscing luctus massa.
                                                             </p>
-                                                            
+                                                            <div id="share"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -622,7 +667,6 @@
                                                     Cart</button>
                                                 <button type="button" class="btn btn-secondary"
                                                     data-dismiss="modal">Close</button>
-
                                             </div>
                                         </div>
                                     </div>
@@ -635,26 +679,28 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="img_virtual/rp12.jpg"
-                                alt="" />
+                            <img class="group list-group-image img-fluid"
+                                src="http://sun-surfer.com/photos/2012/02/Aurora-Borealis-400x250.jpg" alt="" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                X-1 BOOTSUIT</h4>
+                                Trip to Norvege</h4>
                             <p class="group inner list-group-item-text">
-                                Put on the X-1 Haptic Bootsuit by IOI, and experience Virtual Reality in the Oasis like you've never have. The suit gives you comfort in both world. Rule the Oasis and rule the world!
+                                The essence of Norway's appeal is remarkably simple: this is one of the most beautiful
+                                countries on earth. Glaciers, grand and glorious, snake down from ice fields that rank
+                                among Europe's largest.
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        $199.00</p>
+                                        $1500.90</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
-                                        data-target="#exampleModal8">More
+                                        data-target="#exampleModal6">More
                                         infos</button>
                                 </div>
-                                <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog"
+                                <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog  modal-lg" role="document">
                                         <div class="modal-content">
@@ -666,25 +712,30 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img
-                                                                src="img_virtual/rp11.jpg" width="400" alt="..."></div>
+                                                                src="https://www.rivagesdumonde.fr/images/xftrdm/CROFRXDK005208-3012/17608.jpg"
+                                                                alt="rbm_single_commerce_01" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>X-1 Bootsuit</h1>
+                                                            <h1>Trip to <br>Norvege</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>$199.00</h2>
+                                                            <h2>$1500.90</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">Quantity</option>
-                                                                    <option value="">1</option>
-                                                                    <option value="">2</option>
-                                                                    <option value="">3</option>
-                                                                    <option value="">4</option>
+                                                                    <option value="">number of people</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 people</option>
+                                                                    <option value="">3 people</option>
+                                                                    <option value="">4 people</option>
                                                                 </select>
                                                             </div>
-                                                            <p>Disconnect yourself totally from the reality and jump into the Oasis and live a better experience with our bootsuit by IOI. You can purchase this item directly in the game for 30,000.00 Oasis Credits
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                                Nam
+                                                                nibh. Nunc varius facilisis eros. Sed erat. In in velit
+                                                                quis
+                                                                arcu ornare laoreet. Curabitur adipiscing luctus massa.
                                                             </p>
-                                                            
+                                                            <div id="share"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -695,7 +746,6 @@
                                                     Cart</button>
                                                 <button type="button" class="btn btn-secondary"
                                                     data-dismiss="modal">Close</button>
-
                                             </div>
                                         </div>
                                     </div>
@@ -708,26 +758,29 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="img_virtual/cw.jpg"
+                            <img class="group list-group-image img-fluid"
+                                src="https://onpartquand.fr/wp-content/uploads/2017/10/budget-indon%C3%A9sie-couv-400x250.jpg"
                                 alt="" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                CODE WARS</h4>
+                                Trip to Indonesia</h4>
                             <p class="group inner list-group-item-text">
-                                Our best way to escape reality ! Codewars is where developers achieve code mastery through challenge. Train on kata in the dojo and reach your highest potential in many languages.
+                                This beguiling nation of over 17,000 islands has massive potential for adventures. It's
+                                hard to beat Indonesia for the sheer range of experiences on offer. Sitting in the open
+                                door of a train whizzing across Java.
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        FREE</p>
+                                        $1159.90</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
-                                        data-target="#exampleModal9">More
+                                        data-target="#exampleModal2">More
                                         infos</button>
                                 </div>
-                                <div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog"
+                                <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog  modal-lg" role="document">
                                         <div class="modal-content">
@@ -739,19 +792,30 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img
-                                                                src="img_virtual/cw2.png" width="400" alt="..."></div>
+                                                                src="https://subocea.com/uploads/media/default/0001/03/1189b1e0ea94033de1f683ba6dc2b52a7fb121ed.jpeg"
+                                                                alt="rbm_single_commerce_01" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>CODE WARS</h1>
+                                                            <h1>Trip to Indonesia</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>FREE</h2>
+                                                            <h2>$1159.90</h2>
                                                             <div class="col">
-                                                                
+                                                                <select class="form-control" name="select">
+                                                                    <option value="">number of people</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 people</option>
+                                                                    <option value="">3 people</option>
+                                                                    <option value="">4 people</option>
+                                                                </select>
                                                             </div>
-                                                            <p>Codewars is an educational community for computer programming. On the platform, software developers train on programming challenges known as kata.These discrete programming exercises train a variety of skills in a variety of programming languages, and are completed within an online IDE.
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                                Nam
+                                                                nibh. Nunc varius facilisis eros. Sed erat. In in velit
+                                                                quis
+                                                                arcu ornare laoreet. Curabitur adipiscing luctus massa.
                                                             </p>
-                                                            
+                                                            <div id="share"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -762,7 +826,6 @@
                                                     Cart</button>
                                                 <button type="button" class="btn btn-secondary"
                                                     data-dismiss="modal">Close</button>
-
                                             </div>
                                         </div>
                                     </div>
@@ -777,36 +840,37 @@
     <!-- Objets les plus consultés par les clients-->
 
     <!-- Meilleurs ventes toutes catégories confondues-->
-    <section id="topselling">
+    <section>
         <div class="container">
             <div>
                 <h3>Top Selling</h3>
             </div>
             <!--Cards 1-->
-            <div  class="row view-group">
+            <div id="products" class="row view-group">
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="img_virtual/cw.jpg"
-                                alt="" />
+                            <img class="group list-group-image img-fluid"
+                                src="https://www.climatsdumonde.biz/images/photo/B_660_ScallopBar1_[400].jpg" alt="" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                CODE WARS</h4>
+                                Trip to Thailand</h4>
                             <p class="group inner list-group-item-text">
-                                Our best way to escape reality ! Codewars is where developers achieve code mastery through challenge. Train on kata in the dojo and reach your highest potential in many languages.
+                                Friendly and fun-loving, cultured and historic, Thailand radiates a golden hue, from its
+                                glittering temples and tropical beaches through to the ever-comforting Thai smile.
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        FREE</p>
+                                        $950.90</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
-                                        data-target="#exampleModal10">More
+                                        data-target="#exampleModal4">More
                                         infos</button>
                                 </div>
-                                <div class="modal fade" id="exampleModal10" tabindex="-1" role="dialog"
+                                <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog  modal-lg" role="document">
                                         <div class="modal-content">
@@ -818,18 +882,30 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img
-                                                                src="img_virtual/cw2.png"
+                                                                src="https://voyage-vietnam.asia/images/tour/items/img1/fascinating-thailand-vietnam-itinerary10d-400.jpg"
                                                                 alt="rbm_single_commerce_01" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>CODE WARS</h1>
+                                                            <h1>Trip to Thailande</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>FREE</h2>
-                                                           
-                                                            <p>Codewars is an educational community for computer programming. On the platform, software developers train on programming challenges known as kata.These discrete programming exercises train a variety of skills in a variety of programming languages, and are completed within an online IDE.
+                                                            <h2>$950.90</h2>
+                                                            <div class="col">
+                                                                <select class="form-control" name="select">
+                                                                    <option value="">number of people</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 people</option>
+                                                                    <option value="">3 people</option>
+                                                                    <option value="">4 people</option>
+                                                                </select>
+                                                            </div>
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                                Nam
+                                                                nibh. Nunc varius facilisis eros. Sed erat. In in velit
+                                                                quis
+                                                                arcu ornare laoreet. Curabitur adipiscing luctus massa.
                                                             </p>
-                                                            
+                                                            <div id="share"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -840,7 +916,6 @@
                                                     Cart</button>
                                                 <button type="button" class="btn btn-secondary"
                                                     data-dismiss="modal">Close</button>
-
                                             </div>
                                         </div>
                                     </div>
@@ -853,26 +928,29 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="img_virtual/rp11.jpg"
+                            <img class="group list-group-image img-fluid"
+                                src="https://viaimage3.viafrance.com//img/img-1000x500/2/9/5/295663_1000x500.jpg?width=400&height=250&mode=crop"
                                 alt="" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                X-1 BOOTSUIT</h4>
+                                Trip to Florence</h4>
                             <p class="group inner list-group-item-text">
-                               Put on the X-1 Haptic Bootsuit by IOI, and experience Virtual Reality in the Oasis like you've never have. The suit gives you comfort in both world. Rule the Oasis and rule the world!
+                                Cradle of the Renaissance, romantic, enchanting and utterly irresistible, Florence
+                                (Firenze) is a place to feast on world-class art and gourmet Tuscan cuisine.Few cities
+                                are so compact size or so packed with extraordinary art.
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        $199.000</p>
+                                        $895.90</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
-                                        data-target="#exampleModal11">More
+                                        data-target="#exampleModal1">More
                                         infos</button>
                                 </div>
-                                <div class="modal fade" id="exampleModal11" tabindex="-1" role="dialog"
+                                <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog  modal-lg" role="document">
                                         <div class="modal-content">
@@ -884,25 +962,30 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img
-                                                                src="img_virtual/rp12.jpg" width="400" alt="..."></div>
+                                                                src="https://besthqwallpapers.com/Uploads/18-4-2018/48880/thumb-santo-spirito-florence-evening-sunset-italy.jpg"
+                                                                alt="rbm_single_commerce_01" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>X-1 BOOTSUIT</h1>
+                                                            <h1>Trip to <br>Florence</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>$199.00</h2>
+                                                            <h2>$895.90</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">Quantity</option>
-                                                                    <option value="">1</option>
-                                                                    <option value="">2</option>
-                                                                    <option value="">3</option>
-                                                                    <option value="">4</option>
+                                                                    <option value="">number of people</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 people</option>
+                                                                    <option value="">3 people</option>
+                                                                    <option value="">4 people</option>
                                                                 </select>
                                                             </div>
-                                                            <p>Disconnect yourself totally from the reality and jump into the Oasis and live a better experience with our bootsuit by IOI. You can purchase this item directly in the game for 30,000.00 Oasis Credits
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                                Nam
+                                                                nibh. Nunc varius facilisis eros. Sed erat. In in velit
+                                                                quis
+                                                                arcu ornare laoreet. Curabitur adipiscing luctus massa.
                                                             </p>
-                                                            
+                                                            <div id="share"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -913,7 +996,6 @@
                                                     Cart</button>
                                                 <button type="button" class="btn btn-secondary"
                                                     data-dismiss="modal">Close</button>
-
                                             </div>
                                         </div>
                                     </div>
@@ -926,26 +1008,29 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="img_virtual/sao2.jpg"
+                            <img class="group list-group-image img-fluid"
+                                src="http://www.croisieresurmekong.com/halongbay-images/news/img1/S4TN9C1TDD_pro.jpg"
                                 alt="" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                SAO HELMET</h4>
+                                Trip to Wild Code School</h4>
                             <p class="group inner list-group-item-text">
-                               Purchase the Sword Art Online Helmet and jump in Aincrad and join other players from all over the world. Once you've put the helmet on, you're in ! Make allies and progress through the dungeon!
+                                Become a web developer by completing our 5-month training programme in web development.
+                                Before you start at one of our schools, we invite you to learn the basics of coding,
+                                free of charge, on our online platform.
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        $249.00</p>
+                                        $6000.00</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
-                                        data-target="#exampleModal12">More
+                                        data-target="#exampleModal3">More
                                         infos</button>
                                 </div>
-                                <div class="modal fade" id="exampleModal12" tabindex="-1" role="dialog"
+                                <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog  modal-lg" role="document">
                                         <div class="modal-content">
@@ -957,25 +1042,30 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img
-                                                                src="img_virtual/sao1.jpg" width="400" alt="..."></div>
+                                                                src="http://voyagebirmanie-myanmar.com/wp-content/uploads/2014/10/Birmanie-Yangon-400x250.jpg"
+                                                                alt="rbm_single_commerce_01" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>KAYAKING</h1>
+                                                            <h1>Trip to <br>Birmanie</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>$249.00</h2>
+                                                            <h2>$6000.00</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
                                                                     <option value="">number of people</option>
-                                                                    <option value="">1 persone</option>
+                                                                    <option value="">1 person</option>
                                                                     <option value="">2 people</option>
                                                                     <option value="">3 people</option>
                                                                     <option value="">4 people</option>
                                                                 </select>
                                                             </div>
-                                                            <p>Join a medieval RPG, a modern FPS or a fantasy RPG.<br> <small>Beware: once you've put the helmet on, you're stuck in the game!</small>
+                                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                                Nam
+                                                                nibh. Nunc varius facilisis eros. Sed erat. In in velit
+                                                                quis
+                                                                arcu ornare laoreet. Curabitur adipiscing luctus massa.
                                                             </p>
-                                                            
+                                                            <div id="share"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -986,7 +1076,6 @@
                                                     Cart</button>
                                                 <button type="button" class="btn btn-secondary"
                                                     data-dismiss="modal">Close</button>
-
                                             </div>
                                         </div>
                                     </div>
@@ -1000,69 +1089,68 @@
     </section>
     <!-- Meilleurs ventes toutes catégories confondues-->
 
-
     <!--ContactUs-->
-   <Section id="contactus">
-      <div class="container">
-          <h2 class="ContactUs"> Contact Us</h2>
-          
-          <br />
-          <div class="row">
-              <div class="col-lg-6">
-                  <form>
-                      <div class="form-group">
-                          <!--<label for="exampleFormControlInput1">Email address</label>-->
-                          <input type="email" class="form-control"  placeholder="@">
-                      </div>
-                      <div class="form-group">
-                          <!--<label for="exampleFormControlInput1">Email address</label>-->
-                          
-                          <input type="email" class="form-control"  id="Home" placeholder="🏰">
-                      </div>
-                      
-                      <div class="form-group">
-                          
-                          <textarea class="form-control" id="message" placeholder="(Your Message here)" rows="10"></textarea>
-                      </div>
-                  </form>
-                  <div class="row">
-                      <div class="col-lg-6">
-                          <button type="submit" class="btn btn-outline-dark boutonsubmit">submit</button>
-                      </div>
-                  </div>
-                  <br />
-              </div>
-              <div class="col-lg-6">
-                  <img class="imgcontactus" src="https://i.etsystatic.com/5284843/r/il/2fe330/1166918536/il_570xN.1166918536_ek1q.jpg" alt="...">
-              </div>
+    <Section id="contactus">
+        <div class="container">
+            <h2 class="ContactUs"> Contact Us</h2>
+
+            <br />
+            <div class="row">
+                <div class="col-lg-6">
+                    <form>
+                        <div class="form-group">
+                            <!--<label for="exampleFormControlInput1">Email address</label>-->
+                            <input type="email" class="form-control" placeholder="@">
+                        </div>
+                        <div class="form-group">
+                            <!--<label for="exampleFormControlInput1">Email address</label>-->
+
+                            <input type="email" class="form-control" id="Home" placeholder="🏰">
+                        </div>
+
+                        <div class="form-group">
+
+                            <textarea class="form-control" id="message" placeholder="(Your Message here)"
+                                rows="10"></textarea>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <button type="submit" class="btn btn-outline-dark boutonsubmit">submit</button>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+                <div class="col-lg-6">
+                    <img class="imgcontactus"
+                        src="https://image.noelshack.com/fichiers/2019/10/4/1551952493-fullsizeoutput-f04.jpeg ">
+                </div>
             </div>
-      </div>       
-  </Section>
+        </div>
+    </Section>
     <!-- Contact us-->
 
     <!-- Footer-->
     <section id="footer">
-        <footer>
-            <div class="container">
-                <div class="row no-gutters">
-                    <div class="col-sm-3 footernote">
-                        <a href="index.html#categories" class="footernote">Categories</a><br>
-                        <a href="#topselling" class="footernote">Top Selling</a><br>
-                        <a href="index.html#aboutus" class="footernote">About Us</a>
-                    </div>
-                    <div class="col-sm-3 footernote">
-                        <a href="#contactus" class="footernote">Contact Us</a><br>
-                        FAQ<br>
-                        Legal mentions
-                    </div>
-                    <div class="col-sm-6 footernote">
-                        Secure Payment<br>
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-sm-4 footernote">
+                    <a href="#categories" class="footernote links">Categories</a><br>
+                    <a href="#topselling" class="footernote links">Top Selling</a><br>
+                    <a href="#aboutus" class="footernote links">About Us</a>
+                </div>
+                <div class="col-sm-4 footernote">
+                    <a href="#contactus" class="footernote links">Contact Us</a><br>
+                    <a class="links">FAQ</a><br>
+                    <a class="links">Legal mentions</a>
+                </div>
+                <div class="col-sm-4 footernote">
+                    <p class="links">Secure Payment<br>
                         Shipping Rates<br>
-                        Your account
-                    </div>
+                        Your account</p>
                 </div>
             </div>
-        </footer>
+        </div>
     </section>
     <!--Footer-->
 
