@@ -176,3 +176,11 @@ input:focus::-moz-placeholder { color:transparent; }
 .img-fluid:hover {
     opacity: 1;
 }
+
+hr {
+  width: 50%;
+  height: 0.2rem;
+  background-color: #6DA0B5;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
