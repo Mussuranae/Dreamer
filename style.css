@@ -134,6 +134,7 @@
 #categories h2, #topselling h2, #aboutus h2, #contactus h2{
     text-align: center;
     color:#FF8C00;
+    font-size : 3rem;
 }
 
 #aboutus {
@@ -221,6 +222,10 @@ font-size: 1em;
     font-family : Arial, sans-serif;
     position: relative;
     
+}
+.container .bandeau
+{
+    margin-top: 10px;
 }
 
 
