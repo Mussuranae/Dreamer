@@ -255,12 +255,14 @@ font-size: 1em;
     height: 300px;
 }
 
-#presentationcat .card-title {
+#presentationcat .titre {
         padding-top : 150px;
-        padding-left: 600px;
+        float: right;
         font-size : 90px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-style: italic;
+        font-weight: bold  ;
+        color :  rgb(207, 85, 201);
 }
 .card-text {
     font-size : 25px;
@@ -273,7 +275,3 @@ font-size: 1em;
 }
 
 
-h3 {
-    font-weight: bold  ;
-    color :  rgb(207, 85, 201);
-}
