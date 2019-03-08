@@ -185,3 +185,8 @@ hr {
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
+.wcs2 {
+    height: 500px;
+    object-fit: cover;
+}
