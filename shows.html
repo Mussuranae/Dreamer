@@ -20,20 +20,20 @@
 <section id="navbar">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="images/logo.png" class="logoFree"></a>
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logoFree"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Top Selling<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#topselling">Top Selling<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#aboutus">About<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#contactus">Contact<span class="sr-only">(current)</span></a>
             </li>
             
             <li class="nav-item dropdown">
@@ -42,18 +42,18 @@
               </a>
               <!-- IL FAUT AJOUTER DANS LE DROPDOWN LES CHEMINS VERS LES AUTRES PAGES 'travels', 'dream addict', 'bedding',... -->
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Travels</a>
-                <a class="dropdown-item" href="#">Dream Addict</a>
-                <a class="dropdown-item" href="#">Virtual Reality</a>
-                <a class="dropdown-item" href="#">Bedding</a>
-                <a class="dropdown-item" href="#">X-Trem</a>
-                <a class="dropdown-item" href="#">Shows</a>
+                <a class="dropdown-item" href="travel.html">Travels</a>
+                <a class="dropdown-item" href="dreamsaddict.html">Dream Addict</a>
+                <a class="dropdown-item" href="virtual.html">Virtual Reality</a>
+                <a class="dropdown-item" href="indexliterie.html">Bedding</a>
+                <a class="dropdown-item" href="xtrem.html">X-Trem</a>
+                <a class="dropdown-item" href="shows.html">Shows</a>
               </div>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline my-2 my-sm-0 searchButton" type="submit">Search</button>
+            <button class="btn1 btn-outline my-2 my-sm-0 searchButton" type="submit">Search</button>
           </form>
           <!-- IL FAUT AJOUTER ICI LES CHEMINS VERS LES PAGES 'cart' ET 'account' -->
           <a class="navbar-brand" href="#">
@@ -73,16 +73,16 @@
     <section id="presentationcat">
         <div class="container">
             <div class="card mb-3">
-                <img src="images/shows.png" class="card-img" alt="Fireworks photo">
+                <img src="images_shows/shows.png" class="card-img" alt="Fireworks photo">
                 <div class="card-img-overlay">
                     <div class="row no-gutters">
                         <div class="col-12">
-                            <h3 class="card-title">Shows</h3>
+                            <h3 class="glow">Shows</h3> <!-- titre responsive -->
                         </div>
                     </div>
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Dream about the best show you'll ever see
+                    <p class="card-text">We've imagined the events you've always wanted to see and the shows you're dreaming about. Just be ready to be entertained...
                     </p>
                 </div>
             </div>
@@ -112,19 +112,19 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="https://www.tnp.no/newsimg/windsuit.jpg"
-                                alt="" />
+                            <img class="group list-group-image img-fluid" src="images_shows/cabaret.jpg"
+                                alt="cabaret photo" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                WINGSUIT FLYING</h4>
+                                CABARET DE PARIS</h4>
                             <p class="group inner list-group-item-text">
-                                Throw yourself in the air to fly like a bird, and reach speeds of 220 km/h. Extreme sensations for maximum pleasure. Don't be afraid, come and challenge your dreams of flying.
+                                Choose your favorite "Revue de Cabaret" and we'll organize it to your living room !
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        $499.00</p>
+                                        $ 3 500.00</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
@@ -143,25 +143,25 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img
-                                                                src="http://www.renegadebs.com/miscjunk/Wingsuit.jpg" width="400"></div>
+                                                                src="images_shows/cabaret_details.jpg" alt="cabaret photo" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>WINGSUIT FLYING</h1>
+                                                            <h1>CABARET DE PARIS</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>$499.00</h2>
+                                                            <h2>$ 3 500.00</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">number of people</option>
-                                                                    <option value="">1 persone</option>
-                                                                    <option value="">2 people</option>
-                                                                    <option value="">3 people</option>
-                                                                    <option value="">4 people</option>
+                                                                    <option value="">Which cabaret ?</option>
+                                                                    <option value="">Moulin Rouge</option>
+                                                                    <option value="">Royal Palace</option>
+                                                                    <option value="">Flamingo Las Vegas</option>
+                                                                    <option value="">Crazy Horse</option>
+                                                                    <option value="">Lido</option>
                                                                 </select>
                                                             </div>
                                                             <p>
-                                                                Trust our monitor and try to fly like a bird. Do not forget to subscribe to a life insurance because we do not guarantee landing.
-                                                                Forget your fears!
+                                                                Once in your life you'll be transported by the incredible sensation of dreaming awake ! With a complete transformation of your interior or outdoor, we will offer you a cabaret night at home !
                                                             </p>
                                                             <div id="share"></div>
                                                         </div>
@@ -187,19 +187,19 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="http://blog.marcdaviet.com/wp-content/uploads/2015/02/%C2%A9MDaviet_LACL_150217_174-400x250.jpg"
-                                alt="" />
+                            <img class="group list-group-image img-fluid" src="images_shows/fireworks.jpeg"
+                                alt="fireworks photo" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                FREERIDE SKIING</h4>
+                                FIREWORKS</h4>
                             <p class="group inner list-group-item-text">
-                                Freeride skiing ―or side country skiing―describes a particular type of skiing which takes place on a natural off-piste terrain and includes deep powder snow and steep runs. 
+                                Some fireworks whirl in a spiral, others shatter into thousands of multicolor sparks, some tumble like a scarlet waterfall or float in a glittering silver shower...
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        $349.000</p>
+                                        $ 1 500.00</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
@@ -218,23 +218,24 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img
-                                                                src="https://crosscall.com/wp-content/uploads/2017/01/UNE-ARTICLE-FWT-400x250.jpg" width="400"></div>
+                                                                src="images_shows/fireworks_eiffel_tower.gif" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>FREERIDE SKIING</h1>
+                                                            <h1>FIREWORKS</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>$349.00</h2>
+                                                            <h2>from $ 1 500.00</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">number of people</option>
-                                                                    <option value="">1 persone</option>
-                                                                    <option value="">2 people</option>
-                                                                    <option value="">3 people</option>
-                                                                    <option value="">4 people</option>
+                                                                    <option value="">Your budget</option>
+                                                                    <option value="">less than $ 2 000.00</option>
+                                                                    <option value="">less than $ 5 000.00</option>
+                                                                    <option value="">less than $ 10 000.00</option>
+                                                                    <option value="">unlimited</option>
                                                                 </select>
                                                             </div>
-                                                            <p>Come skiing in the best powder on the most beautiful summits. Extreme feeling and great pleasure. And do not forget to "plant the stick!"
+                                                            <p>
+                                                                We study each Dream to create a unique show with a wide range of fireworks. Each fire is realized by our artistic director for 5 to 30 minutes. 
                                                             </p>
                                                             <div id="share"></div>
                                                         </div>
@@ -260,19 +261,19 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="http://www.dynamictic.info/wp-content/uploads/2014/11/saut-moto.jpg"
-                                alt="" />
+                            <img class="group list-group-image img-fluid" src="images_shows/underwater.jpg"
+                                alt="penguins in water" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                MOTOCROSS</h4>
+                                UNDERWATER SHOW</h4>
                             <p class="group inner list-group-item-text">
-                                Fun and user-friendly courses, educational and built. The attack, flat bend, ruts, pivots, jumps, relaunch, departure, speed, braking, chronos, amortized, pulse, muscle building ...
+                                ...
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        $599.000</p>
+                                        $250.00</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
@@ -291,23 +292,24 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img
-                                                                src="https://besthqwallpapers.com/Uploads/10-1-2018/36771/thumb-ben-lamay-4k-motocross-honda-crf250r-2018-bikes.jpg" width="400"></div>
+                                                                src="images_shows/underwater_details.jpg" alt="exotic fishes from Thailand-Bay" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>MOTOCROSS</h1>
+                                                            <h1>UNDERWATER SHOW</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>$599.00</h2>
+                                                            <h2>$250.00</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">number of people</option>
-                                                                    <option value="">1 persone</option>
-                                                                    <option value="">2 people</option>
-                                                                    <option value="">3 people</option>
-                                                                    <option value="">4 people</option>
+                                                                    <option value="">number of person</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 persons</option>
+                                                                    <option value="">3 persons</option>
+                                                                    <option value="">4 persons</option>
                                                                 </select>
                                                             </div>
-                                                            <p>Appealing to the competence of a motorcyclist sports educator is a guarantee of success and safety. We are able to propose situations allowing everyone to progress in the best conditions.
+                                                            <p>
+                                                                ...
                                                             </p>
                                                             <div id="share"></div>
                                                         </div>
@@ -333,19 +335,19 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card card2">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="https://dylanpagephoto.com/wp-content/uploads/images/dylan-page-20-400x250.jpg"
-                                alt="" />
+                            <img class="group list-group-image img-fluid" src="images_shows/hackathon.jpg"
+                                alt="Hackathon photo" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                KAYAKING</h4>
+                                WCS HACKATHON</h4>
                             <p class="group inner list-group-item-text">
-                                Here’s where shit starts to get real. Whitewater kayaks are semi-rigid, high impact hulls designed for the demands of fast-moving water. They’re best exemplify kayaking as an extreme sport.
+                                Go to the next Wild World Hackathon Tour ! Build products, practice skills, learn languages and technologies, win prizes, and grow your own Dreams.
                             </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        $249.000</p>
+                                        $ Free</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <button type="button" class="btn btn1 ml-4" data-toggle="modal"
@@ -364,23 +366,23 @@
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img
-                                                                src="https://www.forum-kayak.fr/index.php?action=dlattach;topic=10105.0;attach=44510;image;ts=1481988197" width="400"></div>
+                                                                src="images_shows/hackathon_details.png" alt="L.A. Hacks hackathon photo" width="400"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
-                                                            <h1>KAYAKING</h1>
+                                                            <h1>HACKATHON</h1>
                                                             <small>Published by: <a href="">Dreamer's</a></small>
-                                                            <h2>$249.0</h2>
+                                                            <h2>$ Free</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">number of people</option>
-                                                                    <option value="">1 persone</option>
-                                                                    <option value="">2 people</option>
-                                                                    <option value="">3 people</option>
-                                                                    <option value="">4 people</option>
+                                                                    <option value="">number of days</option>
+                                                                    <option value="">1 day (24h)</option>
+                                                                    <option value="">2 days (48h)</option>
+                                                                    <option value="">5 days (many hours)</option>
+                                                                    <option value="">1 week (so many hours)</option>
                                                                 </select>
                                                             </div>
-                                                            <p>You need a kayak, paddle and buoyancy device to go kayaking. Some styles are more demanding than others and will need special equipment.
+                                                            <p>You'll need a sleeping bag, a coffe cup and probably your favorite toothbrush ! You can't keep
                                                             </p>
                                                             <div id="share"></div>
                                                         </div>
@@ -446,11 +448,11 @@
                                                             <h2>$499.00</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">number of people</option>
-                                                                    <option value="">1 persone</option>
-                                                                    <option value="">2 people</option>
-                                                                    <option value="">3 people</option>
-                                                                    <option value="">4 people</option>
+                                                                    <option value="">number of person</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 persons</option>
+                                                                    <option value="">3 persons</option>
+                                                                    <option value="">4 persons</option>
                                                                 </select>
                                                             </div>
                                                             <p>Long live the wind!</br>Put on your suit and come on the ocean at full speed.</br>Not even afraid ?
@@ -519,11 +521,11 @@
                                                             <h2>$199.00</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">number of people</option>
-                                                                    <option value="">1 persone</option>
-                                                                    <option value="">2 people</option>
-                                                                    <option value="">3 people</option>
-                                                                    <option value="">4 people</option>
+                                                                    <option value="">number of person</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 persons</option>
+                                                                    <option value="">3 persons</option>
+                                                                    <option value="">4 persons</option>
                                                                 </select>
                                                             </div>
                                                             <p>The progression follows the bed of the stream and the direction of flow of the water. It is mainly done on foot, but also by swimming or by using rope progression techniques commonly used in caving, especially abseiling.
@@ -552,6 +554,8 @@
         </div>
     </section>
     <!-- présentation produit - card-->
+
+    <hr>
 
     <!-- Objets les plus consultés par les clients-->
     <section>
@@ -605,11 +609,11 @@
                                                             <h2>$349.00</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">number of people</option>
-                                                                    <option value="">1 persone</option>
-                                                                    <option value="">2 people</option>
-                                                                    <option value="">3 people</option>
-                                                                    <option value="">4 people</option>
+                                                                    <option value="">number of person</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 persons</option>
+                                                                    <option value="">3 persons</option>
+                                                                    <option value="">4 persons</option>
                                                                 </select>
                                                             </div>
                                                             <p>Come skiing in the best powder on the most beautiful summits. Extreme feeling and great pleasure. And do not forget to "plant the stick!
@@ -678,11 +682,11 @@
                                                             <h2>$199.00</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">number of people</option>
-                                                                    <option value="">1 persone</option>
-                                                                    <option value="">2 people</option>
-                                                                    <option value="">3 people</option>
-                                                                    <option value="">4 people</option>
+                                                                    <option value="">number of person</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 persons</option>
+                                                                    <option value="">3 persons</option>
+                                                                    <option value="">4 persons</option>
                                                                 </select>
                                                             </div>
                                                             <p>The progression follows the bed of the stream and the direction of flow of the water. It is mainly done on foot, but also by swimming or by using rope progression techniques commonly used in caving, especially abseiling.
@@ -751,11 +755,11 @@
                                                             <h2>$499.00</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">number of people</option>
-                                                                    <option value="">1 persone</option>
-                                                                    <option value="">2 people</option>
-                                                                    <option value="">3 people</option>
-                                                                    <option value="">4 people</option>
+                                                                    <option value="">number of person</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 persons</option>
+                                                                    <option value="">3 persons</option>
+                                                                    <option value="">4 persons</option>
                                                                 </select>
                                                             </div>
                                                             <p>Trust our monitor and try to fly like a bird. Do not forget to subscribe to a life insurance because we do not guarantee landing.
@@ -785,6 +789,8 @@
         </div>
     </section>
     <!-- Objets les plus consultés par les clients-->
+
+    <hr>
 
     <!-- Meilleurs ventes toutes catégories confondues-->
     <section>
@@ -838,11 +844,11 @@
                                                             <h2>$499.00</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">number of people</option>
-                                                                    <option value="">1 persone</option>
-                                                                    <option value="">2 people</option>
-                                                                    <option value="">3 people</option>
-                                                                    <option value="">4 people</option>
+                                                                    <option value="">number of person</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 persons</option>
+                                                                    <option value="">3 persons</option>
+                                                                    <option value="">4 persons</option>
                                                                 </select>
                                                             </div>
                                                             <p>Trust our monitor and try to fly like a bird. Do not forget to subscribe to a life insurance because we do not guarantee landing.
@@ -912,11 +918,11 @@
                                                             <h2>$499.00</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">number of people</option>
-                                                                    <option value="">1 persone</option>
-                                                                    <option value="">2 people</option>
-                                                                    <option value="">3 people</option>
-                                                                    <option value="">4 people</option>
+                                                                    <option value="">number of person</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 persons</option>
+                                                                    <option value="">3 persons</option>
+                                                                    <option value="">4 persons</option>
                                                                 </select>
                                                             </div>
                                                             <p>Long live the wind!</br>Put on your suit and come on the ocean at full speed.</br>Not even afraid ?
@@ -985,11 +991,11 @@
                                                             <h2>$249.000</h2>
                                                             <div class="col">
                                                                 <select class="form-control" name="select">
-                                                                    <option value="">number of people</option>
-                                                                    <option value="">1 persone</option>
-                                                                    <option value="">2 people</option>
-                                                                    <option value="">3 people</option>
-                                                                    <option value="">4 people</option>
+                                                                    <option value="">number of person</option>
+                                                                    <option value="">1 person</option>
+                                                                    <option value="">2 persons</option>
+                                                                    <option value="">3 persons</option>
+                                                                    <option value="">4 persons</option>
                                                                 </select>
                                                             </div>
                                                             <p>You need a kayak, paddle and buoyancy device to go kayaking. Some styles are more demanding than others and will need special equipment.
@@ -1019,6 +1025,7 @@
     </section>
     <!-- Meilleurs ventes toutes catégories confondues-->
 
+    <hr>
 
     <!--ContactUs-->
    <Section id="contactus">
@@ -1046,13 +1053,13 @@
                   </form>
                   <div class="row">
                       <div class="col-lg-6">
-                          <button type="submit" class="btn btn-outline-dark boutonsubmit">submit</button>
+                          <button type="submit" class="btn btn1 ml-4">submit</button>
                       </div>
                   </div>
                   <br />
               </div>
               <div class="col-lg-6">
-                  <img class="imgcontactus" src="https://i.etsystatic.com/5284843/r/il/2fe330/1166918536/il_570xN.1166918536_ek1q.jpg">
+                  <img class="imgcontactus" src="https://image.noelshack.com/fichiers/2019/10/4/1551952493-fullsizeoutput-f04.jpeg">
               </div>
             </div>
       </div>       
@@ -1061,27 +1068,25 @@
 
     <!-- Footer-->
     <section id="footer">
-        <footer>
             <div class="container">
-                <div class="row no-gutters">
-                    <div class="col-sm-3 footernote">
+                <div class="row">
+                    <div class="col-sm-4 footernote">
                         <a href="#categories" class="footernote">Categories</a><br>
                         <a href="#topselling" class="footernote">Top Selling</a><br>
                         <a href="#aboutus" class="footernote">About Us</a>
                     </div>
-                    <div class="col-sm-3 footernote">
+                    <div class="col-sm-4 footernote">
                         <a href="#contactus" class="footernote">Contact Us</a><br>
                         FAQ<br>
                         Legal mentions
                     </div>
-                    <div class="col-sm-6 footernote">
+                    <div class="col-sm-4 footernote">
                         Secure Payment<br>
                         Shipping Rates<br>
                         Your account
                     </div>
                 </div>
             </div>
-        </footer>
     </section>
     <!--Footer-->
 
