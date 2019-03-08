@@ -1,39 +1,466 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>F*** me, I'm a dreamer</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
 
-<section id="footer">
-	<footer>				
-		<div class="container">
-			<div class="row no-gutters">
-				<div class="col-sm-3 footernote">
-					<a href="#categories" class="footernote">Categories</a><br>
-					<a href="#topselling" class="footernote">Top Selling</a><br>
-					<a href="#aboutus" class="footernote">About Us</a>
-				</div>
-				<div class="col-sm-3 footernote">
-					<a href="#contactus" class="footernote">Contact Us</a><br>
-					FAQ<br>
-					Legal mentions
-				</div>
-				<div class="col-sm-6 footernote">
-					Secure Payment<br>
-					Shipping Rates<br>
-					Your account
-				</div>									
-			</div>
-		</div>			
-	</footer>
-</section>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<head>
+  <title>F*** me, I'm a dreamer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header>
+    <!-- NAVBAR -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" class="logoFree"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#topselling">Top Selling<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#aboutus">About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contactus">Contact<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Categories
+              </a>
+              <!-- IL FAUT AJOUTER DANS LE DROPDOWN LES CHEMINS VERS LES AUTRES PAGES 'travels', 'dream addict', 'bedding',... -->
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="travels.html">Travels</a>
+                <a class="dropdown-item" href="dreamsaddict.html">Dream Addict</a>
+                <a class="dropdown-item" href="virtual.html">Virtual Reality</a>
+                <a class="dropdown-item" href="indexliterie.html">Bedding</a>
+                <a class="dropdown-item" href="xtrem.html">X-Trem</a>
+                <a class="dropdown-item" href="shows">Shows</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline my-2 my-sm-0 searchButton" type="submit">Search</button>
+          </form>
+          <!-- IL FAUT AJOUTER ICI LES CHEMINS VERS LES PAGES 'cart' ET 'account' -->
+          <a class="navbar-brand" href="#">
+            <img src="images/cart_logo_navbar.png" alt="Cart" class="logonav">
+          </a>
+          <a class="navbar-brand" href="#">
+            <img src="images/login_logo_navbar.png" alt="Cart" class="logonav">
+          </a>
+        </div>
+    </div>
+    </nav>
+    </div>
+
+
+    <!-- TITLE & DREAM IMAGE-->
+    <div class="container">
+
+      <div class="bandeau">
+        <img src="images1/superdreamer.png" class="img-fluid" alt="Responsive image">
+        <div class="title">
+          <h1>F*** Me, I'm a Dreamer</h1>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- CATEGORIES -->
+  <section id="categories">
+    <div class="container grey">
+
+      <h2 class="mt-3">Categories</h2>
+      <div class="categories">
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <img src="http://www.lagodiche.fr/wp-content/uploads/2016/01/la-godiche-voyage-de-reve-707x511.jpg"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Trip</h3>
+                <p class="card-text">Loving life with a dream trip !</p>
+              </div>
+              <a href="travels.html" class="btn">Let' go !</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="https://image.noelshack.com/fichiers/2019/10/4/1551970639-broceliande.jpeg"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Dream Addict</h3>
+                <p class="card-text">Change your daily life with magical items !</p>
+              </div>
+              <a href="dreamsaddict.html" class="btn">Smash !</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <img src="https://media.achat-ville.com/uploads/mulhouse/Produit/56/prod_photo1_8957_1351612289.jpg"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Bedding</h3>
+                <p class="card-text">Dream In good conditions !</p>
+              </div>
+              <a href="indexliterie.html" class="btn">Good Night !</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <img src="https://cdn.pixabay.com/photo/2017/10/01/13/28/music-2805506_960_720.jpg" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Shows</h3>
+                <p class="card-text">Live an awesome experience !</p>
+              </div>
+              <a href="shows.html" class="btn">Take in your face !</a>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="https://vrroom.buzz/sites/default/files/styles/article_top_banner/public/oculus-ready-gaming-pc-5.jpg?itok=lCvfN6_M&c=0f064e3404aa25b9df71ad2af28ea3b5"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Virtual Reality</h3>
+                <p class="card-text">Meet and survive another world !</p>
+              </div>
+              <a href="virtual.html" class="btn">Let's play !</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="http://contextpsy.com/wp-content/uploads/2018/10/sea-water-ocean-mountain-sport-fall-542396-pxhere.com_.jpg"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Xtrem</h3>
+                <p class="card-text">Get the adrenaline pumping in you !</p>
+              </div>
+              <a href="xtrem.html" class="btn">Have fun !</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+  </section>
+  <hr>
+  <section>
+    <div class="container" id="topselling">
+      <h2>Top selling</h2>
+      <div class="row mb-4">
+
+      </div>
+      <div class="row">
+        <!--Cards 1-->
+        <div class="col-lg-4">
+          <div class="card card1" style="width: 18rem;">
+
+            <img
+              src="https://www.tnp.no/newsimg/windsuit.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">WINGSUIT FLYING</h5>
+              <p class="card-text">Throw yourself in the air to fly like a bird, and reach speeds of 220 km/h. </p>
+              <button type="button" class="btn btn1 ml-4" data-toggle="modal" data-target="#exampleModal1">More
+                infos</button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                      </button>
+                      <div class="row">
+                        <div class="col">
+                          <div class="product_img"><img
+                              src="http://www.renegadebs.com/miscjunk/Wingsuit.jpg"
+                              alt="rbm_single_commerce_01" width="400"></div>
+                        </div>
+                        <div class="col">
+                          <div class="details-product">
+                            <h1>WINGSUIT FLYING</h1>
+                            <small>Published by: <a href="">Dreamer's</a></small>
+                            <h2>$499.00</h2>
+                            <div class="col">
+                              <select class="form-control" name="select">
+                                <option value="">number of person</option>
+                                <option value="">1 person</option>
+                                <option value="">2 personns</option>
+                                <option value="">3 personns</option>
+                                <option value="">4 personns</option>
+                              </select>
+                            </div>
+                            <p>Trust our monitor and try to fly like a bird. Do not forget to subscribe to a life insurance because we do not guarantee landing.
+                                                                Forget your fears!</p>
+                            <div id="share"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add To
+                        Cart</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Cards 2-->
+        <div class="col-lg-4">
+          <div class="card card1" style="width: 18rem;">
+            <img
+              src="imgaddict/chaussette.png"
+              class="card-img-top" alt="Wild Socks">
+            <div class="card-body">
+              <h5 class="card-title">Wild Socks</h5>
+              <p class="card-text">The new best friend of developers !</p>
+              <button type="button" class="btn btn1 ml-4" data-toggle="modal" data-target="#exampleModal2">More
+                infos</button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                      </button>
+                      <div class="row">
+                        <div class="col">
+                          <div class="product_img"><img
+                              src="imgaddict/chaussette.png"
+                              alt="Wild Socks" width="400"></div>
+                        </div>
+                        <div class="col">
+                          <div class="details-product">
+                            <h1>Wild Socks</h1>
+                            <small>Published by: <a href="">Dreamer's</a></small>
+                            <h2>$50.00</h2>
+                            <div class="col">
+                              <select class="form-control" name="select">
+                                <option value="">Quantity</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                              </select>
+                            </div>
+                            <p>With this pair of socks, you will write a perfect code, hassle free and approved by the W3C Validation Service the first time ! Say goodbye to headaches with the Wild Code School Socks ! </p>
+                            <div id="share"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add To
+                        Cart</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Cards 3-->
+        <div class="col-lg-4">
+          <div class="card card1" style="width: 18rem;">
+            <img src="https://i.skyrock.net/7160/87107160/pics/3161333914_1_2_btKS69ry.jpg" class="card-img-top"
+              alt="Escort">
+            <div class="card-body">
+              <h5 class="card-title">Bed</h5>
+              <p class="card-text">High-end bed for better nights and better dreams</p>
+              <button type="button" class="btn btn1 ml-4" data-toggle="modal" data-target="#exampleModal3">More
+                infos</button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog  modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                      </button>
+                      <div class="row">
+                        <div class="col">
+                          <div class="product_img"><img
+                              src="https://www.cosmosbedding.com/wp-content/uploads/2018/03/matelas-solar.jpg"
+                              alt="rbm_single_commerce_01" width="400"></div>
+                        </div>
+                        <div class="col">
+                          <div class="details-product">
+                            <h1>bedding</h1>
+                            <small>Published by: <a href="">Dreamer's</a></small>
+                            <h2>$349.90</h2>
+                            <div class="col">
+                              <select class="form-control" name="select">
+                                <option value="">Capacity</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                              </select>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam
+                              nibh. Nunc varius facilisis eros. Sed erat. In in velit quis
+                              arcu ornare laoreet. Curabitur adipiscing luctus massa.</p>
+                            <div id="share"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add To
+                        Cart</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<hr>
+  <section id="aboutus">
+
+    <div class="container grey">
+      <h2 class="mt-0">About Us</h2>
+      <div class="container grey">
+
+        <div class="media">
+          <img src="images/logo.png" class="align-self-center mr-3" alt="...">
+          <div class="media-body">
+            <div class="scrollin">
+              <p>
+                <span class="dream">F*** Me, I'm a dreamer</span>
+                is not only a dream-seller, it's a state of mind. With us, you will be able to really live your <span
+                  class="dream">Dreams</span>. There are no budget limits:
+                Regardless of your income, you will be able to purchase a piece of your <span
+                  class="dream">Dreams</span>. Travel across the world or around the corner, get high on new sensations
+                with our Xtrem section, sleep like you never have in our Bedding section. Live the best shows ever,
+                escape the reality with our VR category.</p>
+              <p>You won't know what's real anymore. What is real. How do you define real? If you’re talking about what
+                you can feel, what you can smell, what you can taste and see, then real is simply electrical signals
+                interpreted by your brain. This is the world that you know. The world as it was at the beginning of the
+                twenty first century. It exists now only as part of a neural-interactive simulation that we call <span
+                  class="dream">F*** Me, I'm a dreamer</span>.
+              </p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<hr>
+
+  <!--ContactUs-->
+  <Section id="contactus">
+    <div class="container">
+      <h2 class="ContactUs"> Contact Us</h2>
+
+      <br />
+      <div class="row">
+        <div class="col-lg-6">
+          <form>
+            <div class="form-group">
+              <!--<label for="exampleFormControlInput1">Email address</label>-->
+              <input type="email" class="form-control" placeholder="@">
+            </div>
+            <div class="form-group">
+              <!--<label for="exampleFormControlInput1">Email address</label>-->
+
+              <input type="email" class="form-control" id="Home" placeholder="🏰">
+            </div>
+
+            <div class="form-group">
+
+              <textarea class="form-control" id="message" placeholder="(Your Message here)" rows="10"></textarea>
+            </div>
+          </form>
+          <div class="row">
+            <div class="col-lg-6">
+              <button type="submit" class="btn btn-outline-dark boutonsubmit">submit</button>
+            </div>
+          </div>
+          <br />
+        </div>
+        <div class="col-lg-6">
+          <img class="imgcontactus"
+            src="https://image.noelshack.com/fichiers/2019/10/4/1551952493-fullsizeoutput-f04.jpeg ">
+        </div>
+      </div>
+    </div>
+  </Section>
+  
+  <section id="footer">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-sm-4 footernote">
+            <a href="#categories" class="footernote links">Categories</a><br>
+            <a href="#topselling" class="footernote links">Top Selling</a><br>
+            <a href="#aboutus" class="footernote links">About Us</a>
+          </div>
+          <div class="col-sm-4 footernote">
+            <a href="#contactus" class="footernote links">Contact Us</a><br>
+            <a class="links">FAQ</a><br>
+            <a class="links">Legal mentions</a>
+          </div>
+          <div class="col-sm-4 footernote">
+            <p class="links">Secure Payment<br>
+              Shipping Rates<br>
+              Your account</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
+
 </html>

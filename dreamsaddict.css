@@ -63,6 +63,14 @@
     height: 250px;
 }
 
+.img-fluid {
+opacity: 0.8;
+}
+
+.img-fluid:hover {
+opacity: 1;
+}
+
 .view-group {
     display: -ms-flexbox;
     display: flex;
@@ -186,11 +194,11 @@ input:focus::-moz-placeholder { color:transparent; }
 
 /*Barre de séparation*/
 
-hr{
-	margin-left: 20vw;
-	margin-right: 20vw;
-	margin-top: 5vw;
-	margin-bottom: 5vw;
-	height: 0.1vw;
-	background-color: #26D637;
+hr
+{
+width: 50%;
+height: 0.2rem;
+background-color: #26D637;
+margin-top: 5vw;
+margin-bottom: 5vw;
 }
