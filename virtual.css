@@ -16,7 +16,8 @@
     pointer-events: none;
 }
 .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
-    background-color: #000066;
+    background-color: #1a1a93;
+
 }
 .btn, .btn-outline, .my-2, .my-sm-0 {
     color: black;
@@ -116,7 +117,7 @@ input:focus::-moz-placeholder { color:transparent; }
 
 /*Footer*/
 #footer .container {
-    background-color: #000066;
+    background-color: #1a1a93;
 }
 
 .footernote {
@@ -127,7 +128,7 @@ input:focus::-moz-placeholder { color:transparent; }
 /*Cards*/
 .btn1 {
     margin-bottom: 1rem;
-    background-color: #000066;
+    background-color: #1a1a93;
     color: #fff;
 }
 
@@ -194,7 +195,8 @@ hr
 {
 width: 50%;
 height: 0.2rem;
-background-color: #000066;
+background-color: #1a1a93;
 margin-top: 10px;
 margin-bottom: 20px;
 }
+
