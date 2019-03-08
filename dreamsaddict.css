@@ -63,6 +63,14 @@
     height: 250px;
 }
 
+.img-fluid {
+opacity: 0.8;
+}
+
+.img-fluid:hover {
+opacity: 1;
+}
+
 .view-group {
     display: -ms-flexbox;
     display: flex;
