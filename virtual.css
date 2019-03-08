@@ -1,0 +1,199 @@
+/*NAVBAR*/
+
+#navbar
+{
+    margin-bottom: 10px;
+}
+
+.logonav {
+    width: 2vw;
+}
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+    background-color: #000066;
+}
+.btn, .btn-outline, .my-2, .my-sm-0 {
+    color: black;
+    border-color: black;
+}
+.searchButton {
+    margin-right: 1vw;
+}
+.logoFree {
+    width: 4vw;
+}
+
+/* Card présentation*/
+.presentationcat {
+    position: absolute;
+}
+
+.card-img-overlay {
+    position: absolute;
+}
+
+#presentationcat h3
+{
+    
+    color: #FFA500;
+}
+
+
+/* Gril Card*/
+.view-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.thumbnail {
+    margin-bottom: 30px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.item.list-group-item {
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 30px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+    border: 0;
+}
+
+.item.list-group-item .img-event {
+    float: left;
+    width: 30%;
+}
+
+.item.list-group-item .list-group-image {
+    margin-right: 10px;
+}
+
+.item.list-group-item .thumbnail {
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.item.list-group-item .caption {
+    float: left;
+    width: 70%;
+    margin: 0;
+}
+
+.item.list-group-item:before, .item.list-group-item:after {
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item:after {
+    clear: both;
+}
+
+/*Contact us */
+.ContactUs {
+    font-weight:bold;
+    font-size: 25px;
+    
+}
+
+
+input:focus::-moz-placeholder { color:transparent; }
+
+/*Footer*/
+#footer .container {
+    background-color: #000066;
+}
+
+.footernote {
+    text-decoration: none;
+    color: #B9BDBC;
+}
+
+/*Cards*/
+.btn1 {
+    margin-bottom: 1rem;
+    background-color: #000066;
+    color: #fff;
+}
+
+.btn2 {
+    float: right;
+}
+
+.drugs1 {
+    font-size: 15px;
+    color: red;
+}
+
+
+.card2 img {
+    border-radius: 20px;
+}
+
+.card2 {
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Contact us */
+
+
+.imgcontactus {
+background-size: cover;
+width: 100%;
+height: 83%;
+border: none;
+opacity: 1.5;
+}
+
+.img-fluid {
+opacity: 0.5;
+}
+
+.img-fluid:hover {
+opacity: 1;
+}
+
+.title1 {
+    font-size: 5vw;
+    float: left;
+    padding-top: 8vw;
+    font-weight: bold;
+    
+
+}
+
+.title2 {
+    font-size: 5vw;
+    float: right;
+    padding-top: 8vw;
+    font-weight: bold;
+    
+}
+
+hr
+{
+width: 50%;
+height: 0.2rem;
+background-color: #000066;
+margin-top: 10px;
+margin-bottom: 20px;
+}
