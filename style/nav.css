@@ -1,0 +1,32 @@
+/*NAVBAR*/
+
+#navbar
+{
+    margin-bottom: 10px;
+}
+
+.logonav {
+    width: 2vw;
+}
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+    background-color: #1a1a93;
+
+}
+.btn, .btn-outline, .my-2, .my-sm-0 {
+    color: white;
+    border-color: white;
+}
+.searchButton {
+    margin-right: 1vw;
+}
+.logoFree {
+    width: 4vw;
+}
+
