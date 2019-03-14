@@ -52,7 +52,7 @@ foreach ($products as $key => $value) {
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="product_img"><img src=<?php echo $value[0]; ?>
-                                                                width="400" alt="matrix"></div>
+                                                                 alt="matrix" class="img-fluid"></div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="details-product">
