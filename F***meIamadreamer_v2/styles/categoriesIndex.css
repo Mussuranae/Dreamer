@@ -1,0 +1,19 @@
+
+.card 
+{
+    opacity: 1;
+    margin : 10px;
+    height: 450px;
+    border-radius: 20px;
+
+}
+
+.card-img-top
+{
+    height: 300px;
+    border-radius: 20px;
+}
+
+.btn{
+    border-radius: 20px;
+}

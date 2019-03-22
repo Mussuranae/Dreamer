@@ -1,0 +1,37 @@
+hr
+{
+  width: 50%;
+  height: 0.2rem;
+  background-color: #6DA0B5;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#navbar
+{
+    margin-bottom: 10px;
+}
+
+.logonav {
+    width: 2vw;
+}
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+    background-color: #6DA0B5;
+}
+.btn, .btn-outline, .my-2, .my-sm-0 {
+    color: black;
+    border-color: black;
+}
+.searchButton {
+    margin-right: 1vw;
+}
+.logoFree {
+    width: 4vw;
+}

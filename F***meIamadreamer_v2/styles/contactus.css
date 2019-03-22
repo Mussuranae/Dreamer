@@ -1,0 +1,12 @@
+.ContactUs {
+    font-weight:bold;
+    font-size: 25px;
+    
+}
+
+#Home {
+    background-image:url(https://img.icons8.com/color/48/000000/palace.png); 
+    background-repeat: no-repeat; 
+    background-position: 3px;
+}
+input:focus::-moz-placeholder { color:transparent; }
