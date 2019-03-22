@@ -81,9 +81,9 @@ include ("administration/administration.virtual.php");
         <div class="container">
             <div>
                 <h3>Top selling</h3>
-            </br>
+                </br>
             </div>
-            <div id="productstopselling" class="row view-group">
+                <div id="productstopselling" class="row view-group">
             <?php
             //Trouvé sur le net car chaud :
             $topselling = array_merge($productsxtrem, $productstravel, $productsdream, $productsbedding, $productsshow, $productsvirtual);
@@ -103,8 +103,9 @@ include ("administration/administration.virtual.php");
                 include ("product_card/product_card.inc.php");
                 }
             ?>
-            </div>
+                </div>
         </div>
+
     </section>
         <hr>
 

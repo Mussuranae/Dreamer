@@ -1,22 +1,25 @@
 
                 <div class="item col-xs-4 col-lg-4 col-md-4">
-                    <div class="thumbnail card card2">
+                    <div class="thumbnail card2">
                         <div class="img-event">
                             <img class="group list-group-image img-fluid" src= <?php echo $imagePresentation ?> alt="" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
                                 <?php echo $titreCard ?> </h4>
-                            <p class="group inner list-group-item-text">
+                            <p class="group inner list-group-item-text overflow-ellipsis">
                                 <?php echo $description ?>
+                                <br>
+
                             </p>
+                            <br>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
                                         <?php echo $price ?> </p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
-                                    <button type="button" class="btn btn1 ml-4" data-toggle="modal"
+                                    <button type="button" class=" btn1 ml-4" data-toggle="modal"
                                         data-target=<?php echo "#exampleModal" . $compteur ?> >More
                                         infos</button>
                                 </div>

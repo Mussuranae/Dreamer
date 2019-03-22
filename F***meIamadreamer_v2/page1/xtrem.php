@@ -78,10 +78,6 @@ include ("../presentation/presentation.inc.php");
             ?>
 
 
-                <form name="additem" action="formulaire.php" method="post">
-                    <input type="submit" value="Add item">
-                </form>
-
         </div>
         </div>
 

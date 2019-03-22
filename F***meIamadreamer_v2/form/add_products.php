@@ -13,7 +13,7 @@
   <body>
 
 <?php 
-include('valid_form.php'); 
+include('valid_form.php');
 ?>
 
     <div class="jumbotron">

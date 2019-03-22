@@ -19,7 +19,7 @@
   <body>
     <!-- Default form register -->
 
-    <?php include('form/admin_test.php');
+    <?php include("form/admin_test.php");
     ?>
 <form class="text-center border border-light p-5" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 
@@ -49,7 +49,7 @@
 
 <?php
   if($nameErr ==""&& $passwordErr ==""&& $password == $userPass && $name == $userName && !empty($_POST)){
-    header("location:form/add_products.php");
+    header("Location:form/add_products.php");
     
   }
 
