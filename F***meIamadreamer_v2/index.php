@@ -55,7 +55,7 @@ include ("presentationIndex/presentationIndex.inc.php");
                 {
                 $Cat = $k;
                 $imageCat = $v[0];
-                $tilteCat = $v[1];
+                $titleCat = $v[1];
                 $infoCat = $v[2];
                 $linkCat = $v[3];
                 include ("categoriesIndex/categoriesIndex.inc.php");
@@ -89,7 +89,7 @@ include ("administration/administration.virtual.php");
             $topselling = array_merge($productsxtrem, $productstravel, $productsdream, $productsbedding, $productsshow, $productsvirtual);
 
             $topselling = array_intersect_key($topselling, array_flip(array_rand($topselling, 3))); 
-
+            $index9=0;
             $index9 = $index9 + 1;
             foreach ($topselling as $k => $v)
                 {

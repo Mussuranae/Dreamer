@@ -1,3 +1,26 @@
+<?php
+require_once 'connect.php';
+//test connexion avec la BDD dreamer
+try
+{
+    $sql = new PDO("mysql:host=localhost;dbname=dreamer", USER, PASS, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+}
+catch (Exception $e)
+{
+    die('Erreur : ' . $e->getMessage());
+}
+
+?>
+
+<?php
+require 'valid_form.php';
+require 'create_products.php';
+?>
+
+
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -12,18 +35,16 @@
   </head>
   <body>
 
-<?php 
-include('valid_form.php');
-?>
 
+  <div class="container">
     <div class="jumbotron">
       <h1>Add Products</h1>
-  
+
   <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" enctype="multipart/form-data">
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputCat">Category *</label>
-        <select id="inputCat" class="form-control">
+      <label for="inputCat" >Category *</label>
+        <select id="inputCat" class="form-control" name="inputCat">
           <option selected>Choose...</option>
           <option>Travels</option>
           <option>X-Trem</option>
@@ -35,16 +56,16 @@ include('valid_form.php');
     </div>
     <div class="form-group col-md-6">
       <label for="inputPrice">Price *</label>
-      <input type="text" class="form-control" id="inputPrice" placeholder="example: 10.00" pattern='\d+(\.\d{2})?' name="inputPrice" required="required"><span class="error" style="color: red"><?php echo $inputPriceErr;?></span>
+      <input type="text" class="form-control" id="inputPrice" placeholder="example: 10.00" pattern='\d+(\.\d{2})?' name="inputPrice" required><span class="error" style="color: red"><?php echo $inputPriceErr;?></span>
     </div>
   </div>
   <div class="form-group">
     <label for="inputName">Name *</label>
-    <input type="text" class="form-control" id="inputName" placeholder="Name" name="inputName" required="required" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$"><span class="error" style="color: red"><?php echo $inputNameErr;?></span>
+    <input type="text" class="form-control" id="inputName" placeholder="Name" name="inputName" required pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$"><span class="error" style="color: red"><?php echo $inputNameErr;?></span>
   </div>
   <div class="form-group">
     <label for="inputDescript1">Description #1 *</label>
-    <textarea class="form-control" id="inputDescript1" rows="3" required="required" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,300}$" name="inputDescript1" placeholder="3OO char. max"></textarea><span class="error" style="color: red"><?php echo $inputDescript1Err;?></span>
+    <textarea class="form-control" id="inputDescript1" rows="3" required pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,300}$" name="inputDescript1" placeholder="3OO char. max"></textarea><span class="error" style="color: red"><?php echo $inputDescript1Err;?></span>
   </div>
   <div class="form-group">
     <label for="inputDescript2">Description #2</label>
@@ -54,7 +75,7 @@ include('valid_form.php');
     <label for="inputWarnings">beware</label>
     <textarea class="form-control" id="inputDescript2" rows="2" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,120}$" name="inputDescript2" placeholder="12O char. max"></textarea>
   </div>
-  
+
 
 
   <div class="form-group">
@@ -83,7 +104,7 @@ include('valid_form.php');
   </div>
   <div class="form-group">
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <input class="form-check-input" type="checkbox" id="gridCheck" required>
       <label class="form-check-label" for="gridCheck">
         I have accepted the conditions. *
       </label>
@@ -91,6 +112,7 @@ include('valid_form.php');
   </div>
   <button type="submit" class="btn btn-primary">Add new</button>
 </form>
+</div>
 </div>
 
     <!-- Optional JavaScript -->
